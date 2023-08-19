@@ -11,33 +11,33 @@ const ImageCard = () => {
     <main>
         <section>
             <div className='grid grid-cols-3'>
-                <span>
-                    <img src={photo1} alt="image" 
+                <span >
+                    <img src={photo1} alt="galleryPhoto" 
                     className='w-[109.32px] h-[109.52px] rounded-lg shadow-md  '
                     />
                 </span>
-                <span>
-                    <img src={photo2} alt="image" 
+                <span className='grid col-span-2'>
+                    <img src={photo2} alt="galleryPhoto" 
                     className='w-[229.98px] h-[109.52px] rounded-lg shadow-md '
                     />
                 </span>
-                <span>
-                    <img src={photo3} alt="image" 
+                <span className='grid col-span-2'>
+                    <img src={photo3} alt="galleryPhoto" 
                     className='w-[229.25px] h-[109.52px] rounded-lg shadow-md '
                     />
                 </span>
-                <span>
-                    <img src={photo4} alt="image" 
-                    className='w-[108.59px]  h-[230.76px] rounded-lg shadow-md'
+                <span className='grid row-span-2'>
+                    <img src={photo4} alt="galleryPhoto" 
+                    className='w-[108.59px]  h-[230.76px] rounded-lg shadow-md '
                     />
                 </span>
                 <span>
-                    <img src={photo5} alt="image" 
+                    <img src={photo5} alt="galleryPhoto" 
                     className='w-[109.32px] h-[109.52px] rounded-lg shadow-md '
                     />
                 </span>
                 <span>
-                    <img src={photo6} alt="image" 
+                    <img src={photo6} alt="galleryPhoto" 
                     className='w-[109.32px] h-[109.52px] rounded-lg shadow-md '
                     />
                 </span>

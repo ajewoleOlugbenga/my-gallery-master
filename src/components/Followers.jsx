@@ -3,18 +3,18 @@ import React from 'react'
 const Followers = () => {
   return (
     <section>
-        <div>
-            <div className='w-[78px] h-[52px]  '>
-                <h1 className='font-bold text-xl  '>100</h1>
-                <p>Posts</p>
+        <div className='flex items-center justify-center gap-4'>
+            <div className='w-[78px] h-[52px] bg-gray-200 flex flex-col items-center justify-center rounded-lg'>
+                <h1 className='font-bold text-xl leading-none '>100</h1>
+                <p className='leading-none'>Posts</p>
             </div>
-            <div className='w-[78px] h-[52px]  '>
-                 <h1 className='font-bold text-xl  '>2,242</h1>
-             <p>Followers</p>
+            <div className='w-[78px] h-[52px] bg-gray-200 flex flex-col items-center justify-center rounded-lg'>
+                 <h1 className='font-bold text-xl leading-none '>2,242</h1>
+             <p className='leading-none'>Followers</p>
              </div>
-             <div className='w-[78px] h-[52px]  '>
-                <h1 className='font-bold text-xl  '>1,432</h1>
-                <p>Following</p>
+             <div className='w-[78px] h-[52px] bg-gray-200 flex flex-col items-center justify-center rounded-lg'>
+                <h1 className='font-bold text-xl leading-none '>1,432</h1>
+                <p className='leading-none'>Following</p>
              </div>
         </div>
     </section>
