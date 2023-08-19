@@ -2,7 +2,6 @@ import React from 'react';
 import Header from './components/Header';
 import ImageCard from './components/ImageCard';
 import Followers from './components/Followers';
-import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -10,7 +9,6 @@ const App = () => {
    <Header/>
    <Followers/>
    <ImageCard/>
-    <Footer/>
    </>
   )
 }
